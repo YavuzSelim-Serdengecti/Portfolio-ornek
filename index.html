@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,12 +180,17 @@
   <h2>Contact Me</h2>
   <p>If you’d like to collaborate or just say hi, feel free to send me a message below.</p>
   
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required />
-    <input type="email" placeholder="Your Email" required />
-    <textarea rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
+  <form class="contact-form" action="https://formsubmit.co/cerkfurkan14@gmail.com" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+
+  <!-- İsteğe bağlı: spam koruması -->
+  <input type="hidden" name="_captcha" value="false">
+  <!-- Başarılı gönderimden sonra yönlendirilecek sayfa -->
+  <!-- <input type="hidden" name="_next" value="https://seninsiten.netlify.app/tesekkurler.html"> -->
+</form>
 </section>
 
 
@@ -193,7 +199,7 @@
 <script>
   AOS.init({
     duration: 500, // animasyon süresi (ms)
-    once: true      // sadece bir kez animasyon oynat
+    once: false     // sadece bir kez animasyon oynat
   });
 </script>
 </body>
