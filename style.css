@@ -39,7 +39,7 @@ header {
 }
 
 .nav-links a:hover {
-  color: #f39c12;
+  color: #0bc24e;
 }
 .hero-section {
   height: 100vh;
@@ -53,7 +53,7 @@ header {
 
 .hero-content h1 {
   font-size: 3rem;
-  color: #f39c12;
+  color: #25D366;
   margin-bottom: 10px;
 }
 
@@ -71,7 +71,7 @@ header {
 
 .btn {
   padding: 12px 24px;
-  background: #f39c12;
+  background: #25D366;
   color: #111;
   font-weight: bold;
   border-radius: 8px;
@@ -80,17 +80,17 @@ header {
 }
 
 .btn:hover {
-  background: #e67e22;
+  background: #0bc24e;
 }
 
 .btn-outline {
   background: transparent;
-  border: 2px solid #f39c12;
-  color: #f39c12;
+  border: 2px solid #25D366;
+  color: #25D366;
 }
 
 .btn-outline:hover {
-  background: #f39c12;
+  background: #0bc24e;
   color: #111;
 }
 
@@ -110,7 +110,7 @@ section {
   cursor: pointer;
 }
 #portfolio h2{
-    color: #f39c12;
+    color: #25D366;
   margin-bottom: 40px;
   font-size: 2rem;
   text-align: center;
@@ -145,7 +145,7 @@ section {
 .portfolio-overlay h3 {
   margin-bottom: 5px;
   font-size: 1.2rem;
-  color: #f39c12;
+  color: #25D366;
 }
 
 .portfolio-overlay p {
@@ -198,7 +198,7 @@ section {
 .about-text h2 {
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #f39c12;
+  color: #25D366;
 }
 
 .about-text p {
@@ -223,7 +223,7 @@ section {
 
 .stat-box h3 {
   font-size: 2rem;
-  color: #f39c12;
+  color: #25D366;
 }
 
 .stat-box p {
@@ -239,7 +239,7 @@ section {
 }
 
 .info-section h2 {
-  color: #f39c12;
+  color: #25D366;
   margin-bottom: 40px;
   font-size: 2rem;
 }
@@ -260,7 +260,7 @@ section {
 
 .info-item h3 {
   margin-bottom: 10px;
-  color: #f39c12;
+  color: #25D366;
 }
 
 .info-item span {
@@ -278,9 +278,9 @@ section {
   background: #1e1e1e;
   padding: 25px;
   border-radius: 50%;
-  color: #f39c12;
+  color: #25D366;
   font-weight: bold;
-  box-shadow: inset 0 0 5px rgba(243, 156, 18, 0.5);
+  box-shadow: inset 0 0 5px #0bc24e;
   text-align: center;
   aspect-ratio: 1 / 1;
   display: flex;
@@ -297,7 +297,7 @@ section {
 }
 
 .education-section h2 {
-  color: #f39c12;
+  color: #25D366;
   margin-bottom: 40px;
   font-size: 2rem;
 }
@@ -307,7 +307,7 @@ section {
   max-width: 700px;
   margin: auto;
   padding-left: 30px;
-  border-left: 2px solid #f39c12;
+  border-left: 2px solid #25D366;
 }
 
 .timeline-item {
@@ -322,13 +322,13 @@ section {
   top: 5px;
   width: 20px;
   height: 20px;
-  background: #f39c12;
+  background: #25D366;
   border-radius: 50%;
   border: 3px solid #fff;
 }
 
 .timeline-content h3 {
-  color: #f39c12;
+  color: #25D366;
   margin-bottom: 5px;
 }
 
@@ -349,13 +349,13 @@ section {
   background: #1e1e1e;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(243, 156, 18, 0.2);
+  box-shadow: 0 0 10px #0bc24e;
   color: #fff;
   text-align: center;
 }
 
 .specialization-item h3 {
-  color: #f39c12;
+  color: #25D366;
   margin-bottom: 10px;
 }
 /* CONTACT */
@@ -388,7 +388,7 @@ section {
 }
 
 .contact-form button {
-  background: #f39c12;
+  background: #25D366;
   color: #111;
   font-weight: bold;
   padding: 15px;
@@ -399,5 +399,5 @@ section {
 }
 
 .contact-form button:hover {
-  background: #e67e22;
+  background: #0bc24e;
 }
