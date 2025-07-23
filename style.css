@@ -280,7 +280,7 @@ section {
   border-radius: 50%;
   color: #25D366;
   font-weight: bold;
-  box-shadow: inset 0 0 5px #0bc24e;
+ box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
   text-align: center;
   aspect-ratio: 1 / 1;
   display: flex;
