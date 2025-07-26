@@ -160,7 +160,7 @@ section {
 
 .portfolio-item img {
   width: 100%;
-  height: 330px;
+  height: 350px;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -404,5 +404,3 @@ section {
   background: #0bc24e;
 
 }
-
-
